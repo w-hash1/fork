@@ -1,0 +1,3 @@
+text = "Hello, Bemnet!"
+lowercase_text = text.lower()
+print(lowercase_text)
