@@ -1,4 +1,3 @@
-text = "Hello, sir!"
-result = text.startswith("Hello")
-result = text.startswith("Bem", 7)  # Checks starting from index 7
+text = "Python programming is fun!"
+result = text.startswith("Python")
 print(result)  # Output: True

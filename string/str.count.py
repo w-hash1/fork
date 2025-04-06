@@ -1,7 +1,4 @@
-text = "Hello, samuel! Welcome, samuel!"
-result = text.startswith("samuel")  # Checks if the text starts with "samuel"
-print(result)  # Output: False
+text = "I love programming. Programming is fun!"
+result = text.count("Programming")
+print(result)  # Output: 1
 
-# If you'd like to specify starting positions:
-result = text.startswith("samuel", 7)  # Starts checking at index 7
-print(result)  # Output: True
