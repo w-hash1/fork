@@ -1,0 +1,5 @@
+fruits = ["apple", "banana", "cherry", "banana"]
+index = fruits.index("banana", 2)
+print(index)  # Output: 3
+
+
