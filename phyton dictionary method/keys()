@@ -1,0 +1,16 @@
+# Dictionary example
+my_dict = {'name': 'John', 'age': 25, 'city': 'Adama'}
+
+# Using keys() to get all the keys
+keys = my_dict.keys()
+
+# Printing the keys
+print(keys)  # Output: dict_keys(['name', 'age', 'city'])
+
+# Iterating through the keys
+for key in my_dict.keys():
+    print(key)
+# Output:
+# name
+# age
+# city
