@@ -1,0 +1,9 @@
+# Creating a set with some elements
+numbers = {1, 2, 3, 4, 5}
+print("Before clear:", numbers)  # Output: {1, 2, 3, 4, 5}
+
+# Clearing the set
+numbers.clear()
+
+# The set is now empty
+print("After clear:", numbers)   # Output: set()
